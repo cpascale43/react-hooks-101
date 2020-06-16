@@ -1,0 +1,29 @@
+{
+  "name": "React-Hooks-Demo",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build-watch": "webpack --w"
+  },
+  "author": "Carrie Pascale",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "nodemon": "^1.14.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
