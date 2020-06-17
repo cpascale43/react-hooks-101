@@ -12,6 +12,7 @@ class AddItem extends Component {
   }
 
   handleKey(evt) {
+    if (this.state.input === "") return;
     if (evt.key === "Enter") {
       this.props.add(this.state.input);
       this.setState({ input: "" });
@@ -37,6 +38,7 @@ class AddItem extends Component {
               type="button"
               id="button-addon2"
               onClick={() => {
+                if (this.state.input === "") return;
                 this.props.add(this.state.input);
                 this.setState({ input: "" });
               }}

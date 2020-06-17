@@ -11,3 +11,7 @@ body {
   height: 20rem;
   overflow-y: auto;
 }
+ul {
+  padding: 0px;
+  list-style-type: none;
+ }
